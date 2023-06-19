@@ -3,7 +3,11 @@ function Header() {
         <header>
             <nav>
                 <img src="./react-logo.png" />
-                <h1>Delving into React.JS</h1>
+                <ul>
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
             </nav>
         </header>
     )
