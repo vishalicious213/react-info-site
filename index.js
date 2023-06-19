@@ -1,8 +1,17 @@
+function Header() {
+    return (
+        <header>
+            <nav>
+                <img src="./react-logo.png" />
+                <h1>Delving into React.JS</h1>
+            </nav>
+        </header>
+    )
+}
+
 function AboutReact() {
     return (
-        <section>
-            <img src="./react-logo.png" />
-        
+        <section>        
             <h2>Fun facts about React</h2>
     
             <ul>
@@ -30,4 +39,4 @@ function LearnReact() {
     )
 }
 
-ReactDOM.render(<LearnReact />, document.getElementById("root"))
+ReactDOM.render(<Header />, document.getElementById("root"))
