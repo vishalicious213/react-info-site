@@ -45,4 +45,15 @@ function Footer() {
     )
 }
 
-ReactDOM.render(<Footer />, document.getElementById("root"))
+function Page() {
+    return (
+        <div>
+            <Header />
+            <AboutReact />
+            <LearnReact />
+            <Footer />
+        </div>
+    )
+}
+
+ReactDOM.render(<Page />, document.getElementById("root"))
