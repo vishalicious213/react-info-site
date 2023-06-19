@@ -3,6 +3,18 @@ html, body {
     padding: .75rem;
 }
 
-img {
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
     width: 4rem;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
 }
