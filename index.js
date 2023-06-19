@@ -39,4 +39,10 @@ function LearnReact() {
     )
 }
 
-ReactDOM.render(<Header />, document.getElementById("root"))
+function Footer() {
+    return (
+        <footer>© 2023 Singh Development. All rights reserved.</footer>
+    )
+}
+
+ReactDOM.render(<Footer />, document.getElementById("root"))
