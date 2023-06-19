@@ -1,4 +1,4 @@
-// VERSION 3
+// VERSION 3: Rendering a React Custom Component
 
 function Section() {
     return (
@@ -21,7 +21,7 @@ function Section() {
 ReactDOM.render(<Section />, document.getElementById("root"))
 
 
-// VERSION 2
+// VERSION 2: Rendering a function with JSX
 
 // function section() {
 //     return (
@@ -44,7 +44,7 @@ ReactDOM.render(<Section />, document.getElementById("root"))
 // ReactDOM.render(section(), document.getElementById("root"))
 
 
-// VERSION 1
+// VERSION 1: Rendering a const with JSX
 
 // const section = (
 //     <section>
