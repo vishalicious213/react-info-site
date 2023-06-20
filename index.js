@@ -45,7 +45,9 @@ function LearnReact() {
 
 function Footer() {
     return (
-        <footer>© 2023 Singh Development. All rights reserved.</footer>
+        <footer>
+            <small>© 2023 React In Development. All rights reserved.</small>
+        </footer>
     )
 }
 
