@@ -37,7 +37,12 @@ function LearnReact() {
             <ul className="factoids">
                 <li>To build web applications</li>
                 <li>To get a high-paying web developer job</li>
-                <li>To save my family and house</li>
+                <ul>
+                    <li>To save my family and house</li>
+                    <li>To fuel development of my own company and help other junior developers</li>
+                    <li>To build the front-end of a new clinical application dream</li>
+                </ul>
+                <li>To help combat job and financial insecurity</li>
             </ul>
         </section>
     )
