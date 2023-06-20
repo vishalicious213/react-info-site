@@ -18,7 +18,7 @@ function AboutReact() {
         <section>        
             <h2>Fun facts about React</h2>
     
-            <ul>
+            <ul className="factoids">
                 <li>Was first released in 2013</li>
                 <li>Was originally created by Jordan Walke</li>
                 <li>Has well over 100k stars on Github</li>
@@ -34,7 +34,7 @@ function LearnReact() {
         <section>
             <h2>Why I want to learn React</h2>
 
-            <ul>
+            <ul className="factoids">
                 <li>To build web applications</li>
                 <li>To get a high-paying web developer job</li>
                 <li>To save my family and house</li>
