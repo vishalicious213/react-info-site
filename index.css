@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     margin: 0;
     /* padding: .75rem; */
@@ -27,6 +31,15 @@ nav {
     list-style: none;
     display: flex;
     gap: 1rem;
+}
+
+.nav-items li {
+    border-bottom: 2px solid #878787;
+    line-height: 1.5rem;
+}
+
+.nav-items li:hover {
+    border-bottom: 2px solid #03BFED;
 }
 
 section {
